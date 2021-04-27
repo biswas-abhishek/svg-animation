@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background: rgb(69, 70, 68);
+}
+h1 {
+  font-family: "Zen Dots", cursive;
+  color: aliceblue;
+  margin: 2.5% 0% 2.5% 35%;
+}
+.container .icons {
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .icons .icon {
+  margin-left: 100px;
+}
+.container .icons .icon path {
+  fill: transparent;
+  stroke-width: 15px;
+  stroke: aliceblue;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 0;
+}
+.container .icons .icon.youtube:hover path {
+  animation: animate_svg_youtube 2s linear forwards;
+}
+@keyframes animate_svg_youtube {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #ff0000;
+  }
+}
+.container .icons .icon.twitter:hover path {
+  animation: animate_svg_twitter 2s linear forwards;
+}
+@keyframes animate_svg_twitter {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #1da1f2;
+  }
+}
+
+.container .icons .icon.instagram:hover path {
+  animation: animate_svg_instagram 2s linear forwards;
+}
+@keyframes animate_svg_instagram {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #e95950;
+  }
+}
+.container .icons .icon.whatsapp:hover path {
+  animation: animate_svg_whatsapp 2s linear forwards;
+}
+@keyframes animate_svg_whatsapp {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #25d366;
+  }
+}
+.container .icons .icon.linkedin:hover path {
+  animation: animate_svg_linkedin 2s linear forwards;
+}
+@keyframes animate_svg_linkedin {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #0077b5;
+  }
+}
+.container .icons .icon.facebook:hover path {
+  animation: animate_svg_facebook 2s linear forwards;
+}
+@keyframes animate_svg_facebook {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 4000;
+  }
+  80% {
+    stroke-dashoffset: 8000;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 8000;
+    fill: #3b5998;
+  }
+}
